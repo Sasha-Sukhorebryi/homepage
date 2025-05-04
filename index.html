@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--========== BOX ICONS ==========-->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+		/>
+
+		<!--========== CSS ==========-->
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Responsive resume cv</title>
+	</head>
+	<body>
+		<!--========== HEADER ==========-->
+		<header class="l-header" id="header">
+			<nav class="nav bd-container">
+
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#profile" class="nav__link">
+								<i class='bx bx-user nav__icon'></i>Profile
+							</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#education" class="nav__link">
+								<i class='bx bx-book nav__icon' ></i>Education
+							</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#skills" class="nav__link">
+								<i class='bx bx-receipt nav__icon'></i>Skills
+							</a>
+						</li>
+						
+						<li class="nav__item">
+							<a href="#experience" class="nav__link">
+								<i class='bx bx-briefcase nav__icon' ></i>Experience
+							</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#certificates" class="nav__link">
+								<i class='bx bx-award nav__icon' ></i>Certificates
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="nav__toggle" id="nav-toggle">
+					<i class='bx bx-grid-alt' ></i>
+				</div>
+			</nav>
+		</header>
+
+		<main class="l-main bd-container">
+			<!-- All elements within this div, is generated in PDF -->
+			<div class="resume" id="area-cv">
+				<div class="resume__left">
+					<!--========== profile ==========-->
+					<section class="profile" id="profile">
+						<div class="profile__container section bd-grid">
+							<div class="profile__data bd-grid">
+								<img src="assets/img/bomardirocrocodilo.webp" alt="" class="profile__img">
+
+								<h1 class="profile__title">Max Sydorchuck</h1>
+								<h3 class="profile__profession">Web developer</h3>
+								<p class="profile__description">
+									Reliable and technically skilled specialist with experience in programming and electronics.
+								</p>
+							</div>
+
+							<div class="profile__address bd-grid">
+								<span class="profile__information">
+									<i class='bx bx-map-alt profile__icon' ></i> Poltava
+								</span>
+
+								<span class="profile__information">
+									<a href="mailto:fairpeople268@gmail.com" target='_blank' class="profile__link">
+										<i class='bx bx-envelope profile__icon' ></i> fairpeople268@gmail.com
+									</a>
+								</span>
+
+								<span class="profile__information">
+									<a href="tel:+38961836647" target='_blank' class="profile__link">
+										<i class='bx bx-phone profile__icon' ></i> 999-999-999
+									</a>
+								</span>
+							</div>
+						</div>
+
+						<!-- Theme change button -->
+						<i class='bx bx-moon change-theme' title='Theme' id='theme-button'></i>
+					</section>
+
+					<!--========== SOCIAL ==========-->
+					<section class="social section">
+						<h2 class="section-title">SOCIAL</h2>
+
+						<div class="social__container bd-grid">
+							<a href="https://www.linkedin.com/" target='_blank' class="social__link">
+								<i class='bx bxl-linkedin-square social__icon' ></i>
+							</a>
+
+							<a href="https://www.facebook.com/" target='_blank' class="social__link">
+								<i class='bx bxl-facebook social__icon' ></i>
+							</a>
+
+							<a href="https://www.instagram.com/" target='_blank' class="social__link">
+								<i class='bx bxl-instagram social__icon' ></i>
+							</a>
+						</div>
+					</section>
+
+					<!--========== EDUCATION ==========-->
+					<section class="education section" id="education">
+						<h2 class="section-title">Education</h2>
+						
+						<div class="education__container bd-grid">
+							<div class="education__content">
+								<div class="education__time">
+									<span class="education__rounder"></span>
+									<span class="education__line"></span>
+								</div>
+
+								<div class="education__data bd-grid">
+									<h3 class="education__title">Сomplete secondary education</h3>
+									<span class="education__studies">Сomprehensive school</span>
+									<span class="education__year">2009 - 2020</span>
+								</div>
+							</div>
+
+							<div class="education__content">
+								<div class="education__time">
+									<span class="education__rounder"></span>
+									<span class="education__line"></span>
+								</div>
+
+								<div class="education__data bd-grid">
+									<h3 class="education__title">Bachelor of Telecommunications and radio electronics</h3>
+									<span class="education__studies">National University "Yuri Kondratyuk Poltava Polytechnic"</span>
+									<span class="education__year">2020 - 2024</span>
+								</div>
+							</div>
+
+							<div class="education__content">
+								<div class="education__time">
+									<span class="education__rounder"></span>
+									<!-- <span class="education__line"></span> -->
+								</div>
+
+								<div class="education__data bd-grid">
+									<h3 class="education__title">Master of Telecommunications and radio electronics </h3>
+									<span class="education__studies">National University "Yuri Kondratyuk Poltava Polytechnic"</span>
+									<span class="education__year">2024 - 2026</span>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!--========== SKILLS  ==========-->
+					<section class="skills section" id="skills">
+						<h2 class="section-title">Skills</h2>
+
+						<div class="skills__content bd-grid">
+							<ul class="skills__data">
+								<li class="skills__name">
+									<span class="skills__circle"></span>HTML
+								</li>
+								
+								<li class="skills__name">
+									<span class="skills__circle"></span>CSS
+								</li>
+
+								<li class="skills__name">
+									<span class="skills__circle"></span>SASS
+								</li>
+
+								<li class="skills__name">
+									<span class="skills__circle"></span>JS
+								</li>
+							</ul>
+
+							<ul class="skills__data">
+								<li class="skills__name">
+									<span class="skills__circle"></span>React
+								</li>
+								
+								<li class="skills__name">
+									<span class="skills__circle"></span>SQL
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+
+				<div class="resume__right">
+					<!--========== EXPERIENCE ==========-->
+					<section class="experience section" id="experience">
+						<h2 class="section-title">Experience</h2>
+
+						<div class="experience__container bd-grid">
+							<div class="experience__content">
+								<div class="experience__time">
+									<span class="experience__rounder">
+									</span>
+									<span class="experience__line"></span>
+								</div>
+
+								<div class="experience__data bd-grid">
+									<h3 class="experience__title">C#</h3>
+									<span class="experience__company">From 2022 to 2023 | University</span>
+									<p class="experience__description">
+										Completed a series of lab assignments in C# focused on object-oriented programming, data structures, and basic GUI development using Windows Forms.
+									</p>
+								</div>
+							</div>
+
+							<div class="experience__content">
+								<div class="experience__time">
+									<span class="experience__rounder">
+									</span>
+									<span class="experience__line"></span>
+								</div>
+
+								<div class="experience__data bd-grid">
+									<h3 class="experience__title">Landing Page</h3>
+									<span class="experience__company">From 2023 to 2024 | Freelance</span>
+									<p class="experience__description">
+										Created a simple responsive landing page using HTML, CSS, and basic JavaScript. Designed layout, implemented navigation, and optimized for mobile devices.
+									</p>
+								</div>
+							</div>
+
+							<div class="experience__content">
+								<div class="experience__time">
+									<span class="experience__rounder">
+									</span>
+									<!-- <span class="experience__line"></span> -->
+								</div>
+
+								<div class="experience__data bd-grid">
+									<h3 class="experience__title">Arduino Project</h3>
+									<span class="experience__company">From 2023 to 2024 | University</span>
+									<p class="experience__description">
+										Automated system of linear controlled variable regulation with a pid-controller.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!--========== CERTIFICATES ==========-->
+					<section class="certificate section" id="certificates">
+						<h2 class="section-title">Certificates</h2>
+
+						<div class="certificate__container bd-grid">
+							<div class="certificate__content">
+								<h3 class="certificate__title">Programming for Everyone: Python Basics (2024)</h3>
+								<p class="certificate__description">Completed an introductory course focused on Python programming, covering fundamental concepts such as variables, data types, control structures (loops, conditionals), and functions. Gained hands-on experience with basic algorithms and problem-solving, building a strong foundation in Python for further development in software engineering and data analysis.</p>
+							</div>
+
+							<div class="certificate__content">
+								<h3 class="certificate__title">GoIT English HTML (2024)</h3>
+								<p class="certificate__description">Completed a comprehensive course in web development, covering HTML, CSS, and JavaScript. Gained hands-on experience in creating responsive and interactive web pages, mastering layout design with CSS, and adding dynamic elements using JavaScript. Developed a solid understanding of web standards and best practices for building modern, user-friendly websites.
+
+								</p>
+							</div>
+						</div>
+					</section>
+
+					<!--========== LANGUAGES ==========-->
+					<section class="languages section">
+						<h2 class="section-title">Languages</h2>
+
+						<div class="languages__container">
+							<ul class="languages__content bd-grid">
+								<li class="languages__name">
+									<span class="languages__circle"></span> CrocodiloBombardiro
+								</li>
+
+								<li class="languages__name">
+									<span class="languages__circle"></span> English
+								</li>
+
+								<li class="languages__name">
+									<span class="languages__circle"></span> Ukranian
+								</li>
+							</ul>
+						</div>
+					</section>
+
+					<!--========== INTERESTS ==========-->
+					<section class="interests section">
+						<h2 class="section-title">Interests</h2>
+
+						<div class="interests__container bd-grid">
+							
+							<div class="interests__content">
+								<i class='bx bx-camera-movie interests__icon' ></i>
+								<span class="interests__name">Movie</span>
+							</div>
+
+							<div class="interests__content">
+								<i class='bx bx-headphone interests__icon' ></i>
+								<span class="interests__name">Music</span>
+							</div>
+
+							<div class="interests__content">
+								<i class='bx bx-male-female interests__icon'></i>
+								<span class="interests__name">Ballroom dance</span>
+							</div>
+
+							<div class="interests__content">
+								<i class='bx bx-abacus interests__icon'></i>
+								<span class="interests__name">GYM</span>
+							</div>
+
+							<div class="interests__content">
+								<i class='bx bxs-printer interests__icon' ></i>
+								<span class="interests__name">3D printing</span>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+		<!--========== SCROLL TOP ==========-->
+<a href="#" class="scrolltop" id="scroll-top">
+	<i class='bx bxs-chevron-up scrolltop__icon'></i>
+</a>
+		<!--========== HTML2PDF ==========-->
+		<script src="assets/js/html2pdf.bundle.min.js"></script>
+
+		<!--========== MAIN JS ==========-->
+		<script src="main.js"></script>
+	</body>
+</html>
