@@ -6,12 +6,12 @@
 	--header-height: 3rem;
 
 	/*========== Colors ==========*/
-	--title-color: #171a25;
-	--text-color: #191f2e;
-	--text-color-light: #4c5870;
-	--container-color: #b9c5d6;
-	--container-color-alt: #cad2e7;
-	--body-color: #d8dfee;
+	--title-color: #202125;
+	--text-color: #1b1e25;
+	--text-color-light: #797f8a;
+	--container-color: #cbd0d6;
+	--container-color-alt: #d9dde9;
+	--body-color: #eef0f5;
 
 	/*========== Font and typography ==========*/
 	--body-font: 'Rubik', sans-serif;
@@ -49,11 +49,11 @@ html {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-	--title-color: #b8c2da;
-	--text-color: #8290a3;
-	--container-color: #1a2631;
-	--container-color-alt: #171d22;
-	--body-color: #2c2d2e;
+	--title-color: #d8dce6;
+	--text-color: #99a0aa;
+	--container-color: #1b2125;
+	--container-color-alt: #14171a;
+	--body-color: #212324;
 }
 /*========== Button Dark/Light ==========*/
 .change-theme{
